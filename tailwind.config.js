@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,vue}",
   ],
   theme: {
+    fontFamily: {
+      "kanit": "'Kanit', sans-serif"
+    },
     colors: {
       "main-dark":"#0D0D0D",
       "main-gray":"#30353F",

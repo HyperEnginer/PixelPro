@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.inline-32 {
+  inline-size: 32rem;
+}
+.inline-48 {
+  inline-size: 48rem;
+}
