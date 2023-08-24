@@ -2,9 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.inline-32 {
-  inline-size: 32rem;
+@layer utilities  {
+  .inline-16 {
+    inline-size: 16rem;
+  }
+  .inline-24 {
+    inline-size: 24rem;
+  }
+  .inline-28 {
+    inline-size: 28rem;
+  }
+  .inline-32 {
+    inline-size: 32rem;
+  }
+  .inline-48 {
+    inline-size: 48rem;
+  }
 }
-.inline-48 {
-  inline-size: 48rem;
+* {
+  /* outline: 1px red solid; */
 }

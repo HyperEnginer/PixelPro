@@ -16,7 +16,11 @@ export default {
       "main-blue":"#0554F1",
       "secondary-blue":"#0540F2",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        'btnShadow': `0 0 20px 0 #0554f1`,
+      }
+    }
   },
   plugins: [],
 }
