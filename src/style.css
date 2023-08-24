@@ -22,3 +22,6 @@
 * {
   /* outline: 1px red solid; */
 }
+body::-webkit-scrollbar {
+  display: none;
+}
